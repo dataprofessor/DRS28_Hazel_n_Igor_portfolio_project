@@ -61,8 +61,8 @@ if st.button('Read data from sensor:'):
     ## collect data to predict
     # N_of_readings = 10 #5Hz=200ms : 10 -> 2sec
     # serial_port = '/dev/ttyACM0' #for linux
-    serial_port = '/dev/cu.usbmodem1401' #for mac
-    baud_rate = 9600
+    ##serial_port = '/dev/cu.usbmodem1401' #for mac
+    ##baud_rate = 9600
 
     GGS_list = []
     init_time = round(time.time(),3)*1000
@@ -101,8 +101,8 @@ if st.button('Get random premeasured test data:'):
 
     ## collect data to predict
     # N_of_readings = 10 #5Hz=200ms : 10 -> 2sec
-    serial_port = '/dev/ttyACM0'
-    baud_rate = 9600
+    ##serial_port = '/dev/ttyACM0'
+    ##baud_rate = 9600
 
     GGS_list = []
     rand_sample_ind = np.random.randint(3)
